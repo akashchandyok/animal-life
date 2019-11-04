@@ -6,7 +6,6 @@ import com.animal.life.AnimalI;
 /**
  * Contract for flying animal which are also perform action as per Animal
  */
-public interface FlyAnimal extends AnimalI {
+public interface FlyFeatureAnimal extends FeatureAnimal {
     void fly();
-    void sing();
 }

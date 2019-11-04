@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 public class FlyAnimalTest {
-    FlyAnimal flyAnimal = new Bird();
+    FeatureAnimal flyAnimal = new Bird();
 
     @Test
     public void testSing_BirdSinging(){
@@ -35,15 +35,5 @@ public class FlyAnimalTest {
         Assert.assertEquals("I am walking\n",outContent.toString());
     }
 
-    @Test
-    public void testWalk_BirdFlying(){
-        //Assign  - ByteArrayOutputStream to capture print ln stream and assert against string
-        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
-        //Act
-        flyAnimal.fly();
-        //Assert
-        Assert.assertEquals("I am flying\n",outContent.toString());
-    }
 
 }
