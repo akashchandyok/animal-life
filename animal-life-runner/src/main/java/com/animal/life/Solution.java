@@ -1,6 +1,6 @@
 package com.animal.life;
 
-import com.animal.life.fly.Bird;
+import com.animal.life.feature.animal.Bird;
 
 public class Solution {
     public static void main(String[] args) {

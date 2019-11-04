@@ -1,4 +1,4 @@
-package com.animal.life.fly;
+package com.animal.life.feature.animal;
 
 public interface SwimFeatureAnimal extends FeatureAnimal {
     void swim();

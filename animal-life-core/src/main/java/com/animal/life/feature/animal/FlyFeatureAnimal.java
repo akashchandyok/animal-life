@@ -1,7 +1,4 @@
-package com.animal.life.fly;
-
-import com.animal.life.Animal;
-import com.animal.life.AnimalI;
+package com.animal.life.feature.animal;
 
 /**
  * Contract for flying animal which are also perform action as per Animal

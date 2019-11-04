@@ -1,7 +1,7 @@
 package com.animal.life.swim;
 
-import com.animal.life.fly.Duck;
-import com.animal.life.fly.SwimFeatureAnimal;
+import com.animal.life.feature.animal.Duck;
+import com.animal.life.feature.animal.SwimFeatureAnimal;
 import org.junit.Assert;
 import org.junit.Test;
 

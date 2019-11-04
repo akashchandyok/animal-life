@@ -1,4 +1,4 @@
-package com.animal.life.fly;
+package com.animal.life.feature.animal;
 
 
 import org.junit.Assert;
@@ -34,6 +34,7 @@ public class FlyAnimalTest {
         //Assert
         Assert.assertEquals("I am walking\n",outContent.toString());
     }
+
 
 
 }

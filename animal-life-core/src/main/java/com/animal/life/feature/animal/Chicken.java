@@ -1,4 +1,4 @@
-package com.animal.life.fly;
+package com.animal.life.feature.animal;
 
 public class Chicken extends Bird {
     @Override
