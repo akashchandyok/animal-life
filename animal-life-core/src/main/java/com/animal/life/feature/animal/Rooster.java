@@ -1,5 +1,8 @@
 package com.animal.life.feature.animal;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 /**
  * My view:
  *
@@ -14,6 +17,8 @@ package com.animal.life.feature.animal;
 public class Rooster extends Chicken{
     @Override
     public void sing(){
-        System.out.println("Cock-a-doodle-doo");
+        Locale currentLocale = Locale.getDefault();
+        ResourceBundle messages = ResourceBundle.getBundle("messages", currentLocale);
+        System.out.println(messages.getString("Cock-a-doodle-doo"));
     }
 }
