@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/animal-life.iml" filepath="$PROJECT_DIR$/animal-life.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animal-life-core/animal-life-core.iml" filepath="$PROJECT_DIR$/animal-life-core/animal-life-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animal-life-runner/animal-life-runner.iml" filepath="$PROJECT_DIR$/animal-life-runner/animal-life-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animal-water-core/animal-water-core.iml" filepath="$PROJECT_DIR$/animal-water-core/animal-water-core.iml" />
+    </modules>
+  </component>
+</project>

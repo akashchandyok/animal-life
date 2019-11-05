@@ -12,5 +12,11 @@
         <module name="animal-life-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="animal-life" target="1.5" />
+      <module name="animal-life-core" target="1.5" />
+      <module name="animal-life-runner" target="1.5" />
+      <module name="animal-water-core" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
